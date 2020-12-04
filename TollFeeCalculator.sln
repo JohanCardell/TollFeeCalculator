@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TollFeeCalculator", "TollFe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56F090DB-96B9-4297-816F-6A54F260D134}"
 	ProjectSection(SolutionItems) = preProject
+		bugLog.txt = bugLog.txt
 		testData.txt = testData.txt
 	EndProjectSection
 EndProject

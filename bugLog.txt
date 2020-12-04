@@ -1,0 +1,20 @@
+Program is set to private. Should be public
+All methods should be public for testing purposes
+free is not named properly. Should be "Free". Same with "run"
+Main method takes no arg. Path to testData.txt should not be hard coded.
+
+
+
+1. "Free" returns true for Fridays
+2. "Free" returns false for Sundays
+3. "Run" outputs no space between message and result
+4. "TotalFeeCost" can return more than 60
+5. "TollFeePass" returns 0 for time intervals during the first half hour 9-14
+6. 
+
+
+   // 1. Sista passagen i indata försvinner under parse till datetime (dates array är mindre än antal passager)
+        // 2. Programmet accepterar indata med flera datum utan att kasta exception (inga kontroller av indata)
+        // 6. Debiteringen understiger aldrig 60 (Max istället för Min)
+        // 8. Passager ej inom en timme kan undvika debitering (Använder ej timmeskomponent i jämförelse)
+        // 9. Passager inom en timme kan debiteras (Adderar alltid en kostnad)
